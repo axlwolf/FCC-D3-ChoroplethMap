@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  font-family: "Hubot Sans", sans-serif;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  /*  Paleta de colores Material Design  */
+  background-color: #212121;
+  /*  Grey 900  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  /*  White  */
+  margin: none;
+}
+
+svg {
+  background-color: #424242;
+  /*  Grey 800  */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#canvas {
+  min-height: 600px;
+  min-width: 950px;
+}
+
+.county:hover {
+  fill: #616161;
+  /*  Grey 700  */
+}
+
+g {
+  color: #ffffff;
+  /*  White  */
+}
+
+#tooltip {
+  visibility: hidden;
+  height: auto;
+  width: auto;
+  margin-top: 2px;
+  color: #ffffff;
+  /*  White  */
+  font-size: 24px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  /*  Fondo oscuro para el tooltip  */
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#legend {
+  color: #ffffff;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  text-align: center;
+  height: 141px;
+  max-width: 164px;
+  position: absolute;
+  top: 112px;
+  right: 62px;
+}
+
+#legend text {
+  fill: #fff;
+}
+
+#title {
+  font-size: 28px;
+  color: #ffffff;
+  /*  White  */
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#description a {
+  text-decoration: none;
+  color: #03a9f4;
+  /*  Light Blue 500 (para enlaces)  */
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
